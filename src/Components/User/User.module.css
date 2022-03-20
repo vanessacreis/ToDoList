@@ -1,0 +1,20 @@
+.userBox {
+  width: 275px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: var(--secundary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.userBox > img {
+  width: 70px;
+  height: 70px;
+}
+
+.text {
+  text-align: center;
+  font-size: 300;
+}
