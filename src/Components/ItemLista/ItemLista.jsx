@@ -1,7 +1,7 @@
 import React from "react";
-import S from "./todolist.module.css";
+import S from "./ItemLista.module.css";
 
-const Todolist = () => {
+const ItemLista = () => {
   return (
     <div className={S.doneBox}>
       <p>Item a fazer</p>
@@ -10,4 +10,4 @@ const Todolist = () => {
   );
 };
 
-export default Todolist;
+export default ItemLista;

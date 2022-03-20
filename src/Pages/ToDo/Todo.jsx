@@ -1,14 +1,14 @@
 import React from "react";
 import S from "./Todo.module.css";
-import Todolist from "../../Components/TodoList/todolist";
+import ItemLista from "../../Components/ItemLista/ItemLista";
 import { Link } from "react-router-dom";
 
 const Todo = () => {
   return (
     <div className={S.container}>
-      {/* <Link to="/"> */}
-      <img src="./assets/img/logout.svg" alt="" className={S.logout} />
-      {/* </Link> */}
+      <Link to="/" className={S.logout}>
+        <img src="./assets/img/logout.svg" alt="" />
+      </Link>
       <section className={S.user}>
         <img src="/assets/img/user.svg" alt="" />
         <p>
@@ -20,9 +20,15 @@ const Todo = () => {
       </section>
       <section className={S.todoSection}>
         <p>My to-do list</p>
-        <Todolist />
-        <Todolist />
-        <Todolist />
+        <section className={S.inserirItem}>
+          <input type="text" placeholder="Inserir novo item" />
+          <img src="/assets/img/add.svg" alt="" />
+        </section>
+        <div>
+          <ItemLista />
+          <ItemLista />
+          <ItemLista />
+        </div>
       </section>
     </div>
   );
