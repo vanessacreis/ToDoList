@@ -1,6 +1,7 @@
 import React from "react";
 import S from "./Users.module.css";
 import User from "../../Components/User/User";
+import { Link } from "react-router-dom";
 
 const Users = () => {
   return (
@@ -12,7 +13,10 @@ const Users = () => {
       <section className={S.section}>
         <h2>Users</h2>
         <div>
-          <User/>
+          <Link to="/todo">
+            <User />
+          </Link>
+
           <User />
           <User />
         </div>
