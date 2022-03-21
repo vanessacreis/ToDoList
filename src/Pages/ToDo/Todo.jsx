@@ -45,7 +45,9 @@ const Todo = () => {
   useEffect(() => {
     api.get("/todos").then((response) => {
       const todos = response.data;
-      const filtrados = todos.filter((todo) => todo.userId == id);
+      const filtrados = todos.filter((todo) => 
+        todo.userId === parseInt(id)
+      );
       setListaTodos(filtrados);
     });
   }, [id]);
