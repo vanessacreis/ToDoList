@@ -7,18 +7,6 @@
 
 ---
 
-## 🗂️ Índice
-<!--ts-->
-   * [Sobre o projeto](#💻-sobre-o-projeto)
-   * [Funcionalidades](#⚙️-funcionalidades)
-   * [Tecnologias](#🔧-tecnologias-utilizadas)
-   * [Layout](#🎨-layout)
-   * [Deploy](#💻-deploy)
-   * [Desenvolvido](#👽-autora)
-<!--te-->
-
----
-
 ## 💻 Sobre o projeto 
 
 <p>Aplicação de ToDo List desenvolvida em React.JS a partir da API {JSON} Placeholder. Nela é possível visualizar a lista de usuários e as tarefas de cada um.</p>
@@ -43,8 +31,7 @@
 
 ## 🎨 Layout
 
-<p> Protótipo da aplicação disponível em: 
-
+<p> Protótipo da aplicação disponível em:  
 <a href="https://www.figma.com/community/file/1087845031132173801">  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></a> </p>
 
 ---
