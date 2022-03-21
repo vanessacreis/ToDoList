@@ -37,7 +37,6 @@ const Todo = () => {
       title: title,
       completed: false,
     };
-    console.log("oi");
     setListaTodos([newItem, ...listaTodos]);
     setLoad(false);
     setTitle("");
