@@ -9,6 +9,10 @@
   margin: 5px;
 }
 
+.userBox:hover {
+  box-shadow: 3px 3px 10px var(--title);
+}
+
 .userBox > img {
   width: 70px;
   height: 70px;
@@ -17,4 +21,9 @@
 .text {
   text-align: center;
   font-size: 300;
+}
+
+.text > p {
+  font-size: 15px;
+  color: var(--black);
 }

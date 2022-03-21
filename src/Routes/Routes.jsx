@@ -7,7 +7,7 @@ const Routes = () => {
   return (
     <Switch>
       <Route path="/" element={<Users />} />
-      <Route path="/todo" element={<Todo />} />
+      <Route path="/todo/:id/:name" element={<Todo />} />
     </Switch>
   );
 };

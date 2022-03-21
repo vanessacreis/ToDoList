@@ -45,9 +45,27 @@
 
 .section > div {
   width: 80%;
-  height: 80%;
+  height: 70%;
   overflow: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--secundary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--title);
+  border-radius: 10px;
+}
+
+.link {
+  text-decoration: none;
 }
